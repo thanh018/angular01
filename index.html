@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            div {
+                width: 500px;
+                margin: 50px auto;
+            }
+
+            label, input {
+                display: inline-block;
+            }
+
+            label {
+                width: 30%;
+            }
+            input {
+                padding: 5px 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+                <label for="width">Bottom edge</label>
+                <input type="number" id="width" placeholder="Enter bottom edge"><br/><br/>
+
+                <label for="height">Height</label>
+                <input type="number" id="height" placeholder="Enter height"><br/><br/>
+        
+                <label for="perimeter">Result perimeter</label>        
+                <input type="number" id="perimeter"  value="" readonly='true'><br/><br/>
+        
+                <label for="area">Result area</label>        
+                <input type="number" id="area"  value="" readonly='true'><br/><br/>
+                
+                <input type="button" id="getPerimeter" placeholder="get perimeter" value="Perimeter"><br/><br/>
+                <input type="button" id="getArea" placeholder="get area" value="Area">
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
